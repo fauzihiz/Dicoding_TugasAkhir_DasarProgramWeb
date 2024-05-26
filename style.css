@@ -1,0 +1,32 @@
+header {
+    width: 500px;
+    height: 150px;
+    border-style: solid;
+    background-color: blue;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    border-style: solid;
+    background-color: yellowgreen;
+    display: flex;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+}
+
+#content {
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+}
+
+#fixtures {
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+}
