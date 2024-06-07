@@ -10,14 +10,22 @@
 
 body {
     font-family: "Koulen", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+.responsive-img {
+            width: 100%;          /* Make the width 100% of the parent element */
+            height: auto;         /* Maintain the aspect ratio */
+            max-width: 116.7px;   /* Ensure it doesn't exceed the original size */
+        }
 
 header {
     
 }
 
 #title_header {
-    width: 1333px;
+    width: auto;
     height: 188px;
     background-color: #02215A;
     display: flex;
@@ -32,7 +40,7 @@ header {
 }
   
 nav {
-    width: 1333px;
+    width: auto;
     height: 54px;   
     margin-top: 12px; 
     background-color: #ED1B24;
@@ -46,12 +54,12 @@ nav {
 main {
     margin-top: 20px;
     display: flex;
+    gap: 20px;
 }
 
 aside {
     display: block;
-    margin-left: 45px;
-    width: 314px;
+    width: auto;
     height: auto;
     padding: 10px;
     justify-content: center;
@@ -67,7 +75,7 @@ aside {
 
 #aside_klasemen_table {
     margin-top: 23px;
-    width: 300px;
+    width: auto;
     height: auto;
     background-color: #D9D9D9;
 }
@@ -90,16 +98,18 @@ th {
 }
 
 .main_container {
-    width: 974px;
+    width: auto;
     height: 1049px;
     display: flex;
     flex-direction: column;
     background-color: #02215A;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 #content {
     margin-top: 10px;
-    margin-left: 14px;
     display: block;
 }
 
@@ -109,7 +119,6 @@ p {
 
 #highlight {
     margin-top: 36px;
-    margin-left: 14px;
     display: block;
 }
 
@@ -123,14 +132,14 @@ p {
 }
 
 #content_content {
-    width: 800px;
+    width: auto;
     height: auto;
     margin-top: 12px;
     background-color: #D9D9D9;
 }
 
 footer {
-    width: 1333px;
+    width: auto;
     height: 40px;
     margin-top: 30px;
     background-color: #ED1B24;
