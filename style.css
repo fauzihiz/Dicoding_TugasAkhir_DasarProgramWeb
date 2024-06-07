@@ -13,6 +13,10 @@ body {
 }
 
 header {
+    
+}
+
+#title_header {
     width: 1333px;
     height: 188px;
     background-color: #02215A;
