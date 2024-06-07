@@ -1,16 +1,42 @@
-header {
-    width: 500px;
-    height: 150px;
-    border-style: solid;
-    background-color: blue;
+.koulen-regular {
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-nav {
-    width: auto;
-    height: auto;
-    border-style: solid;
-    background-color: yellowgreen;
+.no-underline {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Koulen", sans-serif;
+}
+
+header {
+    width: 1333px;
+    height: 188px;
+    background-color: #02215A;
     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#text_header {
+    font-size: 120px;
+    color:#F5C01F;
+    margin-left: 30px;
+}
+  
+nav {
+    width: 1333px;
+    height: 54px;   
+    margin-top: 12px; 
+    background-color: #ED1B24;
+    color: #02215A;
+    font-size: 25px;
+    text-decoration:none;
+    display: flex;
+    align-items: center; 
 }
 
 main {
@@ -18,15 +44,93 @@ main {
     display: flex;
 }
 
-#content {
-    width: 500px;
-    height: 500px;
-    border-style: solid;
+aside {
+    display: block;
+    margin-left: 45px;
+    width: 314px;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    background-color: #F5C01F;
 }
 
-#fixtures {
-    margin-top: 20px;
-    width: 500px;
-    height: 500px;
-    border-style: solid;
+#aside_title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    gap: 20px;
+}
+
+#aside_klasemen_table {
+    margin-top: 23px;
+    width: 300px;
+    height: auto;
+    background-color: #D9D9D9;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    /* background-color: #f2f2f2; */
+}
+.highlight_klasemen {
+    /* font-weight: bold; */
+    background-color: #ED1B24;
+}
+
+.main_container {
+    width: 974px;
+    height: 1049px;
+    display: flex;
+    flex-direction: column;
+    background-color: #02215A;
+}
+
+#content {
+    margin-top: 10px;
+    margin-left: 14px;
+    display: block;
+}
+
+p {
+    text-align: left;
+}
+
+#highlight {
+    margin-top: 36px;
+    margin-left: 14px;
+    display: block;
+}
+
+#text_recentheadline, #text_highlightmatch {
+    font-size: 25px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    background-color: #ED1B24;
+    color: #02215A;
+}
+
+#content_content {
+    width: 800px;
+    height: auto;
+    margin-top: 12px;
+    background-color: #D9D9D9;
+}
+
+footer {
+    width: 1333px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #ED1B24;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }

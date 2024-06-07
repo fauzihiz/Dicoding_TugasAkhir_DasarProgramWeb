@@ -13,43 +13,189 @@
         <!-- Google Font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1>HEADER</h1>
-            <nav>
-                <ul><a href="#" id="home">Home</a></ul>
-                <ul><a href="#content" id="news"></a>News</ul>
-                <ul><a href="#fixtures" id="fixtures">Fixtures</a></ul>
-            </nav>
+            <img src="depok_city_fc.jpeg" alt="Depok City FC Logo" width="116.7px" height="137.83px">
+            <div id="text_header">DEPOK CITY FC</div>
         </header>
+
+        <nav>
+            <ul><a href="#" class="no-underline" id="home">Home</a></ul>
+            <ul><a href="#content" class="no-underline" id="news">News</a></ul>
+            <ul><a href="#highlight" class="no-underline" id="highlight_match">Highlight</a></ul>
+        </nav>
         
         <main>
             <div class="main_container">
                 <div id="content">
-                    <h1>News</h1>
-                    <article><p>Article 1</p></article>
-                    <article><p>Article 2</p></article>
+                    <div id="text_recentheadline">RECENT HEADLINE</div>
+                    <div id="content_content"><article><p>Depok City FC berhasil meraih kemenangan dramatis dengan skor 3-2 melawan Jakarta United dalam pertandingan yang berlangsung pada Sabtu malam. Gol penentu kemenangan dicetak oleh striker andalan, Andi Setiawan, di menit ke-89, membuat stadion meledak dengan sorakan dari para pendukung setia. Pelatih Depok City FC, Budi Santoso, memuji semangat juang timnya yang tidak pernah menyerah hingga peluit akhir berbunyi.</p></article></div>
                 </div>
 
-                <div id="Highlight">
-                    <h1>Highlight Match</h1>
-                    https://www.youtube.com/watch?v=W0poaA8Q1Pc&ab_channel=CHANNELMAMANK
+                <div id="highlight">
+                    <div id="text_highlightmatch">HIGHLIGHT MATCH</div>
+                    <div id="content_content"></div><iframe width="500" height="400" src="https://www.youtube.com/embed/W0poaA8Q1Pc"></iframe>
                 </div>
             </div>
 
             <aside>
-                <h1>ASIDE</h1>
-                <img src="depok_city_fc.jpeg" alt="Depok City FC Logo" width="200px" height="300px">
+                <div id="aside_title">
+                    <img src="liga3_idn.jpg" alt="Liga3 Indonesia Logo" width="70px" height="76.27px">
+                    <div>KLASEMEN LIGA3</div>
+                </div>
+                <div id="aside_klasemen_table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Team</th>
+                                <th>P</th>
+                                <th>W</th>
+                                <th>D</th>
+                                <th>L</th>
+                                <th>PTS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="highlight_klasemen">
+                                <td>Depok City FC</td>
+                                <td>30</td>
+                                <td>18</td>
+                                <td>6</td>
+                                <td>6</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>Jakarta United</td>
+                                <td>30</td>
+                                <td>16</td>
+                                <td>8</td>
+                                <td>6</td>
+                                <td>56</td>
+                            </tr>
+                            <tr>
+                                <td>Bandung Warriors</td>
+                                <td>30</td>
+                                <td>15</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>55</td>
+                            </tr>
+                            <tr>
+                                <td>Bogor Thunder</td>
+                                <td>30</td>
+                                <td>14</td>
+                                <td>8</td>
+                                <td>8</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>Surabaya Sharks</td>
+                                <td>30</td>
+                                <td>14</td>
+                                <td>7</td>
+                                <td>9</td>
+                                <td>49</td>
+                            </tr>
+                            <tr>
+                                <td>Bali United</td>
+                                <td>30</td>
+                                <td>13</td>
+                                <td>9</td>
+                                <td>8</td>
+                                <td>48</td>
+                            </tr>
+                            <tr>
+                                <td>Medan Tigers</td>
+                                <td>30</td>
+                                <td>13</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>47</td>
+                            </tr>
+                            <tr>
+                                <td>Makassar Eagles</td>
+                                <td>30</td>
+                                <td>12</td>
+                                <td>10</td>
+                                <td>8</td>
+                                <td>46</td>
+                            </tr>
+                            <tr>
+                                <td>Semarang Dragons</td>
+                                <td>30</td>
+                                <td>12</td>
+                                <td>9</td>
+                                <td>9</td>
+                                <td>45</td>
+                            </tr>
+                            <tr>
+                                <td>Yogyakarta Royals</td>
+                                <td>30</td>
+                                <td>11</td>
+                                <td>10</td>
+                                <td>9</td>
+                                <td>43</td>
+                            </tr>
+                            <tr>
+                                <td>Palembang Pirates</td>
+                                <td>30</td>
+                                <td>11</td>
+                                <td>8</td>
+                                <td>11</td>
+                                <td>41</td>
+                            </tr>
+                            <tr>
+                                <td>Malang Titans</td>
+                                <td>30</td>
+                                <td>10</td>
+                                <td>10</td>
+                                <td>10</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <td>Solo Phoenix</td>
+                                <td>30</td>
+                                <td>10</td>
+                                <td>8</td>
+                                <td>12</td>
+                                <td>38</td>
+                            </tr>
+                            <tr>
+                                <td>Pekanbaru Knights</td>
+                                <td>30</td>
+                                <td>9</td>
+                                <td>9</td>
+                                <td>12</td>
+                                <td>36</td>
+                            </tr>
+                            <tr>
+                                <td>Balikpapan Scorpions</td>
+                                <td>30</td>
+                                <td>8</td>
+                                <td>10</td>
+                                <td>12</td>
+                                <td>34</td>
+                            </tr>
+                            <tr>
+                                <td>Manado Dolphins</td>
+                                <td>30</td>
+                                <td>8</td>
+                                <td>8</td>
+                                <td>14</td>
+                                <td>32</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </aside>
 
         </main>
         
         <footer>
-            <h1>FOOTER</h1>
+            <h3>© 2024 Depok City FC. All rights reserved</h3>
         </footer>
     </body>
 </html>
