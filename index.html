@@ -23,9 +23,16 @@
             <div id="text_header">DEPOK CITY FC</div>
             </div>
             <nav>
-                <ul><a href="#" class="no-underline" id="home">Home</a></ul>
-                <ul><a href="#content" class="no-underline" id="news">News</a></ul>
-                <ul><a href="#highlight" class="no-underline" id="highlight_match">Highlight</a></ul>
+                <div class="nav-container">
+                    <div class="hamburger" id="hamburger">
+                        ☰
+                    </div>
+                    <ul class="nav-links" id="navLinks">
+                        <li><a href="#" class="no-underline" id="home">Home</a></li>
+                        <li><a href="#content" class="no-underline" id="news">News</a></li>
+                        <li><a href="#highlight" class="no-underline" id="highlight_match">Highlight</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
@@ -200,5 +207,18 @@
         <footer>
             <h3>© 2024 Depok City FC. All rights reserved</h3>
         </footer>
+
+        <!--dropdown menu-->
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('navLinks');
+            const navContainer = document.querySelector('.nav-container');
+        
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+                navContainer.classList.toggle('show');
+            });
+        </script>
+        
     </body>
 </html>
